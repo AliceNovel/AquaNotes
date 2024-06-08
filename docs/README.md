@@ -4,11 +4,9 @@ a.k.a Alice Aqua;
 Aqua Notes is a free, open source game engine to move 2D novel games. This project can run in your browser.
 
 ### i18n
-TBW
-<!-- There is no docs that translated into non-English languages. You can contribute it. -->
+- [日本語版](./README.ja.md)
 
 ### Status
-TBW
 <!-- badges -->
 [![github-release-badge]][github-release]
 [![github-license-badge]][github-license]
@@ -22,7 +20,7 @@ TBW
 [code-size-badge]: https://img.shields.io/github/languages/code-size/AliceNovel/AquaNotes
 
 ### Alice Project Links
-- [Alice Novel Website](https://alicenovel.web.app "Alice Novel will make you fun!")
+- [Alice Novel Website (Japanese)](https://alicenovel.web.app "Alice Novel will make you fun!")
 - [Anov Syntax Documentation (Japanese)](https://alicenovel.web.app/docs/getting-start/anov-syntax "Standard Anov Syntax for Alice Novel - Alice Project")
 - [Alice Project GitHub](https://github.com/AliceNovel)
 - [Samples](https://github.com/AliceNovel/SampleGames)
