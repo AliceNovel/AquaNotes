@@ -1,10 +1,9 @@
 # Aqua Notes
-a.k.a Alice Aqua;
+a.k.a Alice Aqua
 
 Aqua Notes は自由でオープンソースな 2D のノベルゲームを動かすことができるゲームエンジンです。このプロジェクトは、あなたのブラウザで動かすことができます。
 
-### 国際化
-- [English](README.md)
+- [English](./README.md)
 
 ### 状態
 <!-- badges -->

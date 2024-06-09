@@ -1,10 +1,9 @@
 # Aqua Notes
-a.k.a Alice Aqua;
+a.k.a Alice Aqua
 
 Aqua Notes is a free, open source game engine to move 2D novel games. This project can run in your browser.
 
-### i18n
-- [日本語版](./README.ja.md)
+- [日本語](./README.ja.md)
 
 ### Status
 <!-- badges -->
