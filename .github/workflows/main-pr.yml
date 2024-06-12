@@ -1,7 +1,7 @@
 name: Blazor wasm
 
 on:
-  push:
+  pull_request:
     branches: [ main ]
 
 jobs:
@@ -22,9 +22,9 @@ jobs:
         cd AquaNotes
         dotnet publish -c Release -o publish
 
-    - name: 🚀 Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: AquaNotes/publish/wwwroot
-        force_orphan: true
+#   - name: 🚀 Deploy to GitHub Pages
+#     uses: peaceiris/actions-gh-pages@v4
+#     with:
+#       github_token: ${{ secrets.GITHUB_TOKEN }}
+#       publish_dir: AquaNotes/publish/wwwroot
+#       force_orphan: true
