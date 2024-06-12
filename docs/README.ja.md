@@ -27,5 +27,9 @@ Aqua Notes は自由でオープンソースな 2D のノベルゲームを動�
 ## 構築資料
 追記
 
+```
+dotnet watch run --pathbase=/AquaNotes
+```
+
 ## ライセンス
 [MIT ライセンス](../LICENSE) の下にライセンスされています。

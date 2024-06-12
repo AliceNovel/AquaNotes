@@ -27,5 +27,9 @@ Aqua Notes is a free, open source game engine to move 2D novel games. This proje
 ## Build Documentations
 TBW
 
+```
+dotnet watch run --pathbase=/AquaNotes
+```
+
 ## License
 Licensed under the [MIT license](../LICENSE).
