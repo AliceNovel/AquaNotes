@@ -1,11 +1,11 @@
 # Aqua Notes
+
 a.k.a Alice Aqua
 
 Aqua Notes は自由でオープンソースな 2D のノベルゲームを動かすことができるゲームエンジンです。このプロジェクトは、あなたのブラウザで動かすことができます。
 
-- [English](./README.md)
-
 ### 状態
+
 <!-- badges -->
 [![github-release-badge]][github-release]
 [![github-license-badge]][github-license]
@@ -19,17 +19,20 @@ Aqua Notes は自由でオープンソースな 2D のノベルゲームを動�
 [code-size-badge]: https://img.shields.io/github/languages/code-size/AliceNovel/AquaNotes
 
 ### Alice Project 関連リンク
-- [Alice Novel ウェブサイト](https://alicenovel.web.app "Alice Novel で世界をより楽しく")
-- [Anov 構文 公式資料](https://alicenovel.web.app/docs/getting-start/anov-syntax "Alice Novel のための基本的な Anov 構文 - Alice Project")
+
+- [Alice Project ウェブサイト](https://alicenovel.web.app/ja "Alice Novel で世界をより楽しく")
+- [Alice Project 資料](https://alicenovel.web.app/ja/docs "Alice Novel のための基本的な Anov 構文 - Alice Project")
 - [Alice Project GitHub](https://github.com/AliceNovel)
 - [サンプルゲーム](https://github.com/AliceNovel/SampleGames)
 
 ## 構築資料
-追記
+
+<!-- 追記 -->
 
 ```
 dotnet watch run --pathbase=/AquaNotes
 ```
 
 ## ライセンス
-[MIT ライセンス](../LICENSE) の下にライセンスされています。
+
+[MIT ライセンス](../LICENSE)の下にライセンスされています。
