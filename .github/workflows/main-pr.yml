@@ -19,12 +19,12 @@ jobs:
 
     - name: 📦 Publish
       run: |
-        cd AquaNotes
+        cd src/AquaNotes
         dotnet publish -c Release -o publish
 
 #   - name: 🚀 Deploy to GitHub Pages
 #     uses: peaceiris/actions-gh-pages@v4
 #     with:
 #       github_token: ${{ secrets.GITHUB_TOKEN }}
-#       publish_dir: AquaNotes/publish/wwwroot
+#       publish_dir: src/AquaNotes/publish/wwwroot
 #       force_orphan: true
