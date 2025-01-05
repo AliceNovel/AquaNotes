@@ -1,11 +1,13 @@
 # Aqua Notes
+
 a.k.a Alice Aqua
 
 Aqua Notes is a free, open source game engine to move 2D novel games. This project can run in your browser.
 
-- [日本語](./README.ja.md)
+- [日本語版](./docs/README.ja.md)
 
 ### Status
+
 <!-- badges -->
 [![github-release-badge]][github-release]
 [![github-license-badge]][github-license]
@@ -19,17 +21,21 @@ Aqua Notes is a free, open source game engine to move 2D novel games. This proje
 [code-size-badge]: https://img.shields.io/github/languages/code-size/AliceNovel/AquaNotes
 
 ### Alice Project Links
-- [Alice Novel Website (Japanese)](https://alicenovel.web.app "Alice Novel will make you fun!")
-- [Anov Syntax Documentation (Japanese)](https://alicenovel.web.app/docs/getting-start/anov-syntax "Standard Anov Syntax for Alice Novel - Alice Project")
+
+- [Alice Project Website](https://alicenovel.web.app/en "Alice Novel make you fun!")
+- [Alice Project Documentation](https://alicenovel.web.app/en/docs "Standard Anov Syntax for Alice Novel - Alice Project")
 - [Alice Project GitHub](https://github.com/AliceNovel)
 - [Samples](https://github.com/AliceNovel/SampleGames)
 
 ## Build Documentations
-TBW
 
+<!-- TBW -->
+
+Run:
 ```
 dotnet watch run --pathbase=/AquaNotes
 ```
 
 ## License
-Licensed under the [MIT license](../LICENSE).
+
+Licensed under the [MIT license](./LICENSE).
