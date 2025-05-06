@@ -15,7 +15,7 @@
       enable = true;
       previews = {
         web = {
-          command = [ "dotnet" "watch" "--urls=http://localhost:$PORT" ];
+          command = [ "dotnet" "watch" "--project=src/AquaNotes/AquaNotes.csproj" "--urls=http://localhost:$PORT" "--pathbase=/AquaNotes" ];
           manager = "web";
         };
       };
