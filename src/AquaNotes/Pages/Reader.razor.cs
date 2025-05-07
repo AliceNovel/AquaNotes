@@ -8,19 +8,26 @@ public partial class ReaderBase : ComponentBase
 {
     public string output = "";
 
-    public readonly static string input = 
+    public static readonly string initialText =
     """
-    - Alice<br />
-    [Hi, everyone!]<br /><br />
+    - Alice
+    [Hi, everyone!]
     
-    - Rabbit<br />
-    [What's up?]<br /><br />
+    - Rabbit
+    [What's up?]
     
     """;
 
-    StreamReader sr = new(new MemoryStream(Encoding.UTF8.GetBytes(input)));
+    public string input = initialText;
 
-    public void IncrementCount()
+    StreamReader sr = new(new MemoryStream(Encoding.UTF8.GetBytes(initialText)));
+
+    public void SubmitButton()
+    {
+        sr = new(new MemoryStream(Encoding.UTF8.GetBytes(input)));
+    }
+
+    public void ReadButton()
     {
         output = "";
         while (!sr.EndOfStream)
