@@ -1,0 +1,14 @@
+@page "/reader"
+@inherits ReaderBase
+
+<PageTitle>Reader</PageTitle>
+
+<h1>Reader</h1>
+
+<FluentTextArea @bind-Value=input style="width: 100%;" Placeholder="Input Anov Text" Rows="8" />
+
+<FluentButton Appearance="Appearance.Accent" @onclick="SubmitButton">Submit</FluentButton>
+
+<FluentButton Appearance="Appearance.Accent" @onclick="ReadButton">ReadAll</FluentButton>
+
+<p role="status">@((MarkupString)output)</p>
