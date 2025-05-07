@@ -22,6 +22,7 @@ public partial class ReaderBase : ComponentBase
 
     public void IncrementCount()
     {
+        output = "";
         while (!sr.EndOfStream)
         {
             string? line = sr.ReadLine();
