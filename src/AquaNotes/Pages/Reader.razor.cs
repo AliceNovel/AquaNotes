@@ -10,12 +10,12 @@ public partial class ReaderBase : ComponentBase
 
     public readonly static string input = 
     """
-    - Alice
-    [Hi, everyone!]
-
-    - Rabbit
-    [What's up?]
-
+    - Alice<br />
+    [Hi, everyone!]<br /><br />
+    
+    - Rabbit<br />
+    [What's up?]<br /><br />
+    
     """;
 
     StreamReader sr = new(new MemoryStream(Encoding.UTF8.GetBytes(input)));
@@ -29,7 +29,7 @@ public partial class ReaderBase : ComponentBase
             if (line == "")
                 break;
             else if (line is not null)
-                output += Read(line) + Environment.NewLine;
+                output += Read(line) + "<br />";
         }
     }
 
