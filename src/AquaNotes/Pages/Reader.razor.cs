@@ -8,7 +8,7 @@ public partial class ReaderBase : ComponentBase
 {
     public string output = "";
 
-    readonly static string input = 
+    public readonly static string input = 
     """
     - Alice
     [Hi, everyone!]
