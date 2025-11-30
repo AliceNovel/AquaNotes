@@ -10,4 +10,4 @@ Main library:
 - Fluent-UI Blazor
 
 The languages used are:
-- C# (.NET 8)
+- C# (.NET 10)
