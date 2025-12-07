@@ -1,4 +1,4 @@
-## Security
+# Security
 
 ## Reporting Security Issues
 
@@ -8,4 +8,4 @@ Instead, please report them to [the GitHub Security Form](https://github.com/Ali
 
 ## Preferred Languages
 
-We prefer all communications to be in English or Japanese.
+We prefer all communications to be in English.
