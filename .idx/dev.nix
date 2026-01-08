@@ -9,7 +9,10 @@
   env = { };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
-    extensions = [ "muhammad-sammy.csharp" ];
+    extensions = [
+      "muhammad-sammy.csharp"
+      "ms-dotnettools.vscode-dotnet-runtime"
+    ];
     # Enable previews and customize configuration
     previews = {
       enable = true;
